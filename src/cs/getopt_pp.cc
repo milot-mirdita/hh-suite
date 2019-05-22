@@ -21,7 +21,7 @@
 #include <unistd.h>
 #include "getopt_pp.h"
 
-#ifdef __APPLE__
+#ifdef __llvm__
 extern char** environ;
 #endif
 
